@@ -18,17 +18,15 @@ You can view the live demo of the application [here](https://saviour-seven.verce
 
 ## Installation
 
-1. Clone the repository to your local machine:
+# 1. Clone the repository to your local machine:
+git clone https://github.com/pkadam96/saviour.git
 
-```bash
-git clone <https://github.com/pkadam96/saviour.git>
-
-```bash
+# 2. Navigate to the project directory:
 cd saviour
 
-```bash
+# 3. Install dependencies:
 npm install
 
-```bash
+# 4. Run the application in development mode:
 npm run dev
 
