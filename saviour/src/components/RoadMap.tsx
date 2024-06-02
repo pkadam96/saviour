@@ -5,13 +5,6 @@ import phase4 from '../assets/images/Phase4.png';
 import BackgroundImage from '../assets/images/Rectangle 21.jpg';
 
 const RoadMap = () => {
-    const cardStyle = {
-        display: 'inline-block',
-        position: 'relative',
-        transition: 'transform 0.3s, box-shadow 0.3s',
-        animation: 'float 2s ease-in-out infinite',
-        zIndex: 1,
-    };
 
     const keyframesStyle = `
         @keyframes float {
@@ -50,16 +43,40 @@ const RoadMap = () => {
             <div className='image-overlay pb-12' style={{ backgroundColor: "rgba(0,0,0,0.9)" }}>
                 <h1 className='lg:text-4xl text-3xl pt-16 mb-8 lg:pb-20 font-custom-h1 font-shojumaru text-pink text-center'>ROAD MAP</h1>
                 <div className='flex flex-wrap justify-between w-3/4 mx-auto mb-12'>
-                    <div style={cardStyle} className="card w-36 mb-4 lg:w-auto">
+                    <div style={{
+                        display: 'inline-block',
+                        position: 'relative',
+                        transition: 'transform 0.3s, box-shadow 0.3s',
+                        animation: 'float 2s ease-in-out infinite',
+                        zIndex: 1
+                    }} className="card w-36 mb-4 lg:w-auto">
                         <img src={phase1} alt="" className='w-full' />
                     </div>
-                    <div style={cardStyle} className="card w-36 mb-4 lg:w-auto">
+                    <div style={{
+                        display: 'inline-block',
+                        position: 'relative',
+                        transition: 'transform 0.3s, box-shadow 0.3s',
+                        animation: 'float 2s ease-in-out infinite',
+                        zIndex: 1
+                    }} className="card w-36 mb-4 lg:w-auto">
                         <img src={phase2} alt="" className='w-full' />
                     </div>
-                    <div style={cardStyle} className="card w-36 mb-4 lg:w-auto">
+                    <div style={{
+                        display: 'inline-block',
+                        position: 'relative',
+                        transition: 'transform 0.3s, box-shadow 0.3s',
+                        animation: 'float 2s ease-in-out infinite',
+                        zIndex: 1
+                    }} className="card w-36 mb-4 lg:w-auto">
                         <img src={phase3} alt="" className='w-full' />
                     </div>
-                    <div style={cardStyle} className="card w-36 mb-4 lg:w-auto">
+                    <div style={{
+                        display: 'inline-block',
+                        position: 'relative',
+                        transition: 'transform 0.3s, box-shadow 0.3s',
+                        animation: 'float 2s ease-in-out infinite',
+                        zIndex: 1
+                    }} className="card w-36 mb-4 lg:w-auto">
                         <img src={phase4} alt="" className='w-full' />
                     </div>
                 </div>
