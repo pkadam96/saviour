@@ -6,7 +6,7 @@ This repository contains the implementation of a web application based on a prov
 
 ## Demo
 
-You can view the live demo of the application [here](https://saviour-a65n.vercel.ap)
+You can view the live demo of the application [here](https://saviour-seven.vercel.app/)
 
 ## Features
 
